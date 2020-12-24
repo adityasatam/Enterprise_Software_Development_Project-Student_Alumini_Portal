@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Alumni Login</title>
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/form-validation.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+    <div class="container">
+        <div class="py-5 text-center">
+            <!-- <img alt="" class="d-block mx-auto mb-4" height="72" src="assets/svg/bootstrap-solid.svg" width="72"> -->
+            <h2>Academic ERP</h2>
+        </div>
+
+
+        <div class="col-md-8 order-md-1">
+            <h4 class="mb-3">Alumni Login</h4>
+            <form class="needs-validation-students" id="alumni-login" novalidate>
+                <div class="mb-3">
+                    <label for="alumni_login_id">Login ID</label>
+                    <input class="form-control" id="alumni_login_id" placeholder="" required type="text" value="">
+                    <div class="invalid-feedback">
+                        Please Enter Valid Login Id.
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="alumni_password">Password</label>
+                    <input class="form-control" id="alumni_password" placeholder="" required type="password" value="">
+                    <div class="invalid-feedback">
+                        Please Enter Valid Password.
+                    </div>
+                </div>
+
+                <hr class="mb-4">
+                <button class="btn btn-primary btn-lg btn-block" type="submit">Login</button>
+            </form>
+        </div>
+    </div>
+
+    <footer class="my-5 pt-5 text-muted text-center text-small">
+    </footer>
+</body>
+<script src="assets/js/alumni-form-validation.js"></script>
+</html>

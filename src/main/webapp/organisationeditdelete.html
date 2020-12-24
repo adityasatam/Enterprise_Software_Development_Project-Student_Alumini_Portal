@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Organisation Edit Delete</title>
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/form-validation.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+<div class="container">
+    <div class="py-5 text-center">
+        <!-- <img alt="" class="d-block mx-auto mb-4" height="72" src="assets/svg/bootstrap-solid.svg" width="72"> -->
+        <h2>Academic ERP</h2>
+        <p class="lead">Delete/Update Organisation</p>
+    </div>
+
+    <div class="col-md-8 order-md-1">
+        <form class="needs-validation-students" id="alumni_organisation" novalidate>
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <label for="alumni_org_name">Organisation Name</label>
+                    <input class="form-control" id="alumni_org_name" placeholder="" required type="text" value="">
+                    <div class="invalid-feedback">
+                        Please enter valid Organisation Name.
+                    </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label for="alumni_org_position">Organisation Position</label>
+                    <input class="form-control" id="alumni_org_position" placeholder="" required type="text" value="">
+                    <div class="invalid-feedback">
+                        Please enter a valid Position.
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <label for="alumni_org_joining_date">Organisation Joining Date</label>
+                    <input class="form-control" id="alumni_org_joining_date" placeholder="" required type="text" value="">
+                    <div class="invalid-feedback">
+                        Please enter a Joining Date.
+                    </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label for="alumni_org_leaving_date">Organisation Leaving Date</label>
+                    <input class="form-control" id="alumni_org_leaving_date" placeholder="" required type="text" value="">
+                    <div class="invalid-feedback">
+                        Please enter valid Leaving Date.
+                    </div>
+                </div>
+            </div>
+            <hr class="mb-4">
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <button class="btn btn-primary btn-lg btn-block" id="delete_organisation" type="button">Delete</button>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <button class="btn btn-primary btn-lg btn-block" id="update_organisation" type="button">Update</button>
+                </div>
+            </div>
+        </form>
+        <br/>
+    </div>
+</div>
+<footer class="my-5 pt-5 text-muted text-center text-small">
+</footer>
+
+</body>
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/organisation-edit-delete.js"></script>
+</html>

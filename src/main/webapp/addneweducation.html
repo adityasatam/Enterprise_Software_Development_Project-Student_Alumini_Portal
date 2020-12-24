@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add New Education</title>
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/form-validation.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+    <div class="container">
+        <div class="py-5 text-center">
+            <!-- <img alt="" class="d-block mx-auto mb-4" height="72" src="assets/svg/bootstrap-solid.svg" width="72"> -->
+            <h2>Academic ERP</h2>
+            <p class="lead">Please fill in necessary education details</p>
+        </div>
+        <div class="col-md-8 order-md-1">
+            <h4 class="mb-3">Add Education</h4>
+            <form class="needs-validation-students" id="add-education" novalidate>
+<!--                <div class="row">-->
+<!--                    <div class="col-md-6 mb-3">-->
+<!--                        <label for="first_name">First name</label>-->
+<!--                        <input class="form-control" id="first_name" placeholder="" required type="text" value="">-->
+<!--                        <div class="invalid-feedback">-->
+<!--                            Valid first name is required.-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <div class="col-md-6 mb-3">-->
+<!--                        <label for="last_name">Last name</label>-->
+<!--                        <input class="form-control" id="last_name" placeholder="" required type="text" value="">-->
+<!--                        <div class="invalid-feedback">-->
+<!--                            Valid last name is required.-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label for="college_name">College Name</label>
+                        <input class="form-control" id="college_name" placeholder="" required type="text" value="">
+                        <div class="invalid-feedback">
+                            Please enter valid College Name.
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="degree">Degree</label>
+                        <input class="form-control" id="degree" placeholder="" required type="text" value="">
+                        <div class="invalid-feedback">
+                            Please enter a valid Degree Name.
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <label for="joining_year">Joining Year</label>
+                        <input class="form-control" id="joining_year" placeholder="" required type="text" value="">
+                        <div class="invalid-feedback">
+                            Please enter a Joining Year.
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="passing_year">Passing Year</label>
+                        <input class="form-control" id="passing_year" placeholder="" required type="text" value="">
+                        <div class="invalid-feedback">
+                            Please enter valid Passing Year.
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="address">College Address</label>
+                    <input class="form-control" id="address" placeholder="" required type="text">
+                    <div class="invalid-feedback">
+                        Please enter a valid email address for updates.
+                    </div>
+                </div>
+                <hr class="mb-4">
+                <button class="btn btn-primary btn-lg btn-block" type="submit">Add</button>
+            </form>
+        </div>
+        <br/>
+        <hr class="mb-4">
+    </div>
+    <footer class="my-5 pt-5 text-muted text-center text-small">
+    </footer>
+
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/add-new-education.js"></script>
+</body>
+</html>
